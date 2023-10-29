@@ -12,22 +12,22 @@ export const DefaultDeckPartConfig = {
 	[DeckPart.MAIN]: {
 		name: "Main",
 		indicator: "#main",
-		min: 40,
-		max: 60,
-		recommended: 40,
+		min: 85,
+		max: 85,
+		recommended: 85,
 	},
 	[DeckPart.EXTRA]: {
 		name: "Extra",
 		indicator: "#extra",
 		min: 0,
-		max: 15,
-		recommended: 15,
+		max: 14,
+		recommended: 14,
 	},
-	[DeckPart.SIDE]: {
-		name: "Side",
-		indicator: "!side",
-		min: 0,
-		max: 15,
-		recommended: 15,
+	[DeckPart.ATEMORI]: {
+		name: "Atemori",
+		indicator: "!atemori",
+		min: 1,
+		max: 1,
+		recommended: 1,
 	},
 } as const;
